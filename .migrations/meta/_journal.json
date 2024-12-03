@@ -22,6 +22,27 @@
       "when": 1726162762434,
       "tag": "0002_glamorous_saracen",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1733260986056,
+      "tag": "0003_panoramic_randall",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1733265110491,
+      "tag": "0004_brave_chameleon",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1733266292641,
+      "tag": "0005_smart_whizzer",
+      "breakpoints": true
     }
   ]
 }
