@@ -39,18 +39,3 @@ export async function createUser({ name, email, password }: CreateUserRequest) {
   console.log('Usuário registrado com sucesso!')
   return newUser[0] // Retornar o usuário registrado
 }
-
-// Exemplo de uso
-const newUserData = {
-  name: 'Novo Usuário',
-  email: 'novo.usuario@email.com',
-  password: 'senha-segura',
-}
-
-createUser(newUserData)
-  .then(user => {
-    console.log('Novo Usuário Criado:', user)
-  })
-  .catch(err => {
-    console.error('Erro ao criar usuário:', err.message)
-  })
