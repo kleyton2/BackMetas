@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch --env-file .env  src/http/server.ts",
+    "dev": "tsx watch src/http/server.ts",
     "seed": "tsx --env-file .env src/db/seed.ts"
   },
   "keywords": [],
